@@ -116,6 +116,3 @@ function main {
 #VARS
 $CN = "OU=Admins,OU=Utilisateurs,DC=rps-groupe,DC=com"
 main($expiracydays, $CN)
-
-
-    treatment($da
