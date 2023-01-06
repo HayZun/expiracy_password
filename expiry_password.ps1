@@ -48,7 +48,7 @@ function treatment {
             $prenom = $Name[1]
             $emailaddress = $user.emailaddress
 
-            $MailFrom = "HCPW20@humansconnexion.com"
+            $MailFrom = "XXXXXXXXXX"
             $MailTo  = $emailaddress
 
             # Server Info
@@ -114,5 +114,5 @@ function main {
 }
 
 #VARS
-$CN = "OU=Admins,OU=Utilisateurs,DC=rps-groupe,DC=com"
+$CN = "OU=Admins,OU=Utilisateurs,DC=XXX,DC=XXX"
 main($expiracydays, $CN)
