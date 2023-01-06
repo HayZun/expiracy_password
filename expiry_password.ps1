@@ -143,4 +143,4 @@ function main {
 #VAR
 #Insérez le chemin où se trouve les utilisateurs
 $CN = "OU=Admins,OU=Utilisateurs,DC=XXXX,DC=XXXXX"
-main($CN) treatment($data)
+main($CN)
