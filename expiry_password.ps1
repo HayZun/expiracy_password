@@ -64,13 +64,13 @@ function treatment {
             $emailaddress = $user.emailaddress
 
             #Renseignez ici l'emetteur du mail
-            $MailFrom = "HCPW20@humansconnexion.com"
+            $MailFrom = "XXXXXXXXX"
             #Renseignez ici le destinateur du mail ici l'utilisateur
             $MailTo  = $emailaddress
 
             # Serveur Info
-            $SmtpServer = "mail.humans.local"
-            $SmtpPort = "25"
+            $SmtpServer = "XXXXXXX"
+            $SmtpPort = "XX"
 
             #Je renseigne ici une partie du sujet du mail
             $subjectexpire = "expire dans $daystoexpire"
@@ -142,5 +142,5 @@ function main {
 
 #VAR
 #Insérez le chemin où se trouve les utilisateurs
-$CN = "OU=Admins,OU=Utilisateurs,DC=humans,DC=local"
+$CN = "OU=Admins,OU=Utilisateurs,DC=XXXX,DC=XXXXX"
 main($CN) treatment($data)
